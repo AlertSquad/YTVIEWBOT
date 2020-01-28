@@ -7492,7 +7492,6 @@ class proxy():
             url = "http://www.yuming.flnet.org/NEWS/proxies2.txt"
             url = "http://www.zago.eti.br/firewall/iptables.txt"
             url = "http://zgking.com:8080/home/donghui/teaching/datageneration/source.txt"
-            
             r = requests.get(url)
 
             self.splited = r.text.split("\r\n") #scraping and splitting proxies
